@@ -1,0 +1,46 @@
+h1,h2, h3{
+  text-align: center;
+}
+
+.black, .title{
+  color: #fff;
+}
+
+.black, .title{
+  background-color: #222;
+}
+
+.title, .tweet{
+  background-size: 100% auto;
+}
+
+.wycats{
+  background-image: url('images/wycats.png');
+}
+
+.tweet{
+  background-size: 80% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title h1 {
+  background-size: 1750px auto;
+  font-family: Impact;
+  text-transform: uppercase;
+  text-align:center;
+  line-height: 85%;
+  font-size: 300px;
+  background: url(images/dino_riders.jpg), #222;
+  -webkit-background-clip: text, border;
+  color: transparent;
+  background-position: top 200px;
+}
+
+.title h1 span{
+  display: block;
+}
+
+.small{
+  font-size: 80%;
+}

@@ -1,0 +1,25 @@
+GIT
+  remote: https://github.com/nakajima/slidedown.git
+  revision: f66f9b834cf901f3349a471c3d8cfb8daccd2a34
+  specs:
+    slidedown (0.2.0)
+      makers-mark
+      nokogiri
+      open4
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    bluecloth (2.0.9)
+    makers-mark (0.1.1)
+      bluecloth (>= 2.0.0)
+      nokogiri
+    nokogiri (1.4.4)
+    open4 (1.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  open4
+  slidedown!

@@ -1,9 +1,29 @@
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Arvo'), url('Arvo-Regular.ttf') format('truetype');
+}
+
+body{
+  font-family: Arvo, Helvetica, Arial, sans-serif;
+}
+
 h1,h2, h3{
   text-align: center;
+  font-weight: 100;
 }
 
 .black, .title{
   color: #fff;
+}
+
+h2{
+  color: #444;
+}
+
+h3{
+  color: #666;
 }
 
 .black, .title{

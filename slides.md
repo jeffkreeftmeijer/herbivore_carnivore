@@ -234,7 +234,7 @@
 
 
 !SLIDE
-# Writing our first Steak spec
+# Writing our first acceptance spec
 
 !SLIDE
 @@@ ruby

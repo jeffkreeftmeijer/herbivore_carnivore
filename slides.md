@@ -1,21 +1,22 @@
-!SLIDE
-title
+!SLIDE black title
 <h1><span>Herbivore<span>Carnivore</span></h1>
 ## Dinosaurs, Lasers & Acceptance testing
 
 !SLIDE
 # Jeff Kreeftmeijer
+## [kreɪft•maɪ•ɜr] / (krayft•migh•er)
 
-!SLIDE
-# 80beans
+!SLIDE eightybeans
 
 !SLIDE
 # Open source
 ## Navvy, Fuubar, Swinger
 ### Ruby on Rails, RSpec, Steak
 
+!SLIDE jeffkreeftmeijer
+
 !SLIDE
-# jeffkreeftmeijer.com
+# &lt;/me&gt;
 
 !SLIDE  black
 # Behavior Driven Development

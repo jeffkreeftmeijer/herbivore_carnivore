@@ -11,10 +11,11 @@ body{
 
 h1,h2, h3{
   text-align: center;
-  font-weight: 100;
+  line-height: 80px;
+  font-weight: 500;
 }
 
-.black, .title{
+.black{
   color: #fff;
 }
 
@@ -26,11 +27,15 @@ h3{
   color: #666;
 }
 
-.black, .title{
+.black{
   background-color: #222;
 }
 
-.title, .tweet{
+.black h2{
+  color: #bbb;
+}
+
+.title, .jeffkreeftmeijer{
   background-size: 100% auto;
 }
 
@@ -38,10 +43,25 @@ h3{
   background-image: url('images/wycats.png');
 }
 
-.tweet{
-  background-size: 80% auto;
+.eightybeans{
+  background-image: url('images/80beans.png');
+}
+
+.jeffkreeftmeijer{
+  background-image: url('images/jeffkreeftmeijer.jpg');
+}
+
+.tweet, .eightybeans{
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.tweet{
+  background-size: 80% auto;
+}
+
+.eightybeans{
+  background-size: 60% auto;
 }
 
 .title h1 {

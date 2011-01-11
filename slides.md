@@ -17,12 +17,6 @@ title
 !SLIDE
 # jeffkreeftmeijer.com
 
-!SLIDE black
-# Acceptance testing
-
-!SLIDE
-## &ldquo;The phase in software testing in which individual software modules are combined and tested as a group.&rdquo;
-
 !SLIDE  black
 # Behavior Driven Development
 

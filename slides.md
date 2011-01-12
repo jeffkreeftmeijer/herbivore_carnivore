@@ -19,7 +19,8 @@
 # &lt;/me&gt;
 
 !SLIDE  black
-# Behavior Driven Development
+# BDD
+## Behavior Driven Development
 
 !SLIDE
 ## &ldquo;An agile software development technique that encourages collaboration between developers, QA and non-technical or business participants in a software project.&rdquo;
@@ -134,11 +135,9 @@
 
 !SLIDE relish
 
-!SLIDE
-# Cucumber is awesome
-
 !SLIDE black
 # YAGNI
+## You ain't gonna need it
 
 !SLIDE
 # You don't need to communicate in English

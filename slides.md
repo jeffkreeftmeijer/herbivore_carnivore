@@ -23,6 +23,29 @@
 ## Behavior Driven Development
 
 !SLIDE
+# Outside-in development
+
+!NOTES
+* Outside-in software devopment methodology
+* V -> C -> M instead of M -> C -> V
+* !YAGNI
+
+!SLIDE
+# Client involvement
+
+!NOTES
+* Stakeholder needs
+* Client involvement
+* Finding solutions together instead of just building solutions the client thought of
+* Features as stories in a language everybody can understand
+
+!SLIDE
+# Business value
+
+!NOTES
+* Business value (why? why? why? why? why?)
+
+!SLIDE
 ## &ldquo;An agile software development technique that encourages collaboration between developers, QA and non-technical or business participants in a software project.&rdquo;
 
 !SLIDE black

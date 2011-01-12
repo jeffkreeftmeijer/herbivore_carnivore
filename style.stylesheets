@@ -35,7 +35,7 @@ h3{
   color: #bbb;
 }
 
-.title, .jeffkreeftmeijer{
+.title, .jeffkreeftmeijer, .relish{
   background-size: 100% auto;
 }
 
@@ -49,6 +49,10 @@ h3{
 
 .jeffkreeftmeijer{
   background-image: url('images/jeffkreeftmeijer.jpg');
+}
+
+.relish{
+  background-image: url('images/relish.jpg');
 }
 
 .tweet, .eightybeans{

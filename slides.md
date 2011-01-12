@@ -132,8 +132,7 @@
         But the stdout should not contain "should be < 10"
 @@@
 
-!SLIDE
-# Relish
+!SLIDE relish
 
 !SLIDE
 # Cucumber is awesome

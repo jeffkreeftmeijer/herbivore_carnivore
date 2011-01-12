@@ -35,7 +35,7 @@ h3{
   color: #bbb;
 }
 
-.title, .jeffkreeftmeijer, .relish{
+.title, .jeffkreeftmeijer, .relish, .dinoriders{
   background-size: 100% auto;
 }
 
@@ -53,6 +53,10 @@ h3{
 
 .relish{
   background-image: url('images/relish.jpg');
+}
+
+.dinoriders{
+  background-image: url('images/dino_riders.jpg');
 }
 
 .tweet, .eightybeans{

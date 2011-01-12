@@ -499,3 +499,11 @@ end
 
 !SLIDE
 # Acceptance testing is not rocket science
+
+!SLIDE black
+# Thanks!
+## Questions?
+
+!SLIDE dinoriders
+
+!SLIDE

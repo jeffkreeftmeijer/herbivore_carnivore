@@ -138,7 +138,7 @@
 # Cucumber is awesome
 
 !SLIDE black
-# !Cucumber
+# YAGNI
 
 !SLIDE
 # You don't need to communicate in English

@@ -174,6 +174,8 @@
 !SLIDE
 # You're using another tool to do stories
 
+!SLIDE pivotaltracker image
+
 !SLIDE black
 # Steak
 ## &ldquo;Because Cucumber is for vegetarians&rdquo;

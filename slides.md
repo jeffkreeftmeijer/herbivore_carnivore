@@ -414,108 +414,11 @@ RSpec.configuration.include NavigationHelpers, :type => :acceptance
 <pre style="color:limegreen;">1 example, 0 failures</pre>
 
 !SLIDE
-# Helpers
-
-!SLIDE
-@@@ ruby
-    # spec/acceptance/support/helpers.rb
-
-    module HelperMethods
-
-      # Put helper methods you need to be available in all tests here.
-
-    end
-
-    RSpec.configuration.include HelperMethods, :type => :acceptance
-@@@
-
-!SLIDE
-<div style="opacity: 0.5;">
-@@@ ruby
-# spec/acceptance/support/helpers.rb
-
-module HelperMethods
-@@@
-</div>
-<br/>
-@@@ ruby
-      def create_new_todo(description)
-        visit todos_page
-        click_link 'Add new todo'
-
-        fill_in 'description', :with => description
-        click_button 'Add'
-      end
-@@@
-<br/>
-<div style="opacity: 0.5;">
-@@@ ruby
-
-end
-
-RSpec.configuration.include HelperMethods, :type => :acceptance
-@@@
-
-!SLIDE
-<div style="opacity: 0.5;">
-@@@ ruby
-scenario "Add a new todo" do
-@@@
-<br/>
-</div>
-@@@ ruby
-      create_new_todo('Talk at ams.rb')
-@@@
-<div style="opacity: 0.5;">
-@@@ ruby
-  page.should have_content 'Successfully created a new todo'
-
-end
-@@@
-
-!SLIDE
 # Steak
 
 !SLIDE
 # It's just RSpec
 ## with some generators and aliases
-
-!SLIDE small
-@@@ ruby
-    require File.dirname(__FILE__) + '/rails/railtie' if defined?(Rails)
-
-    module Steak
-      module AcceptanceExampleGroup
-        def self.included(base)
-          base.instance_eval do
-            alias scenario example
-            alias background before
-
-            if defined?(RSpec::Rails)
-              include RSpec::Rails::RequestExampleGroup
-              include Rack::Test::Methods
-              metadata[:type] = :acceptance
-            end
-          end
-        end
-      end
-
-      module DSL
-        def feature(*args, &block)
-          args << {} unless args.last.is_a?(Hash)
-          args.last.update :type => :acceptance, :steak => true, :caller => caller
-          describe(*args, &block)
-        end
-      end
-    end
-
-    extend Steak::DSL
-
-    RSpec.configuration.include Steak::AcceptanceExampleGroup, :type => :acceptance
-@@@
-
-!SLIDE
-# 25 LoC
 
 !SLIDE wycats tweet
 

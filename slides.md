@@ -23,12 +23,7 @@
 ## Behavior Driven Development
 
 !SLIDE
-# Outside-in development
-
-!NOTES
-* Outside-in software devopment methodology
-* V -> C -> M instead of M -> C -> V
-* !YAGNI
+## &ldquo;An agile software development technique that encourages collaboration between developers, QA and non-technical or business participants in a software project.&rdquo;
 
 !SLIDE
 # Client involvement
@@ -41,12 +36,15 @@
 
 !SLIDE
 # Business value
-
-!NOTES
-* Business value (why? why? why? why? why?)
+## 5.times { ask 'Why?' }
 
 !SLIDE
-## &ldquo;An agile software development technique that encourages collaboration between developers, QA and non-technical or business participants in a software project.&rdquo;
+# Outside-in development
+
+!NOTES
+* Outside-in software devopment methodology
+* V -> C -> M instead of M -> C -> V
+* !YAGNI
 
 !SLIDE black
 # Cucumber
@@ -159,8 +157,8 @@
 !SLIDE relish
 
 !SLIDE black
-# YAGNI
-## You ain't gonna need it
+# YAGNI(S)
+## You ain't gonna need it (sometimes)
 
 !SLIDE
 # You don't need to communicate in English

@@ -1,6 +1,6 @@
 !SLIDE black title
 <h1><span>Herbivore<span>Carnivore</span></h1>
-## Dinosaurs, Lasers & Acceptance testing
+## Dinosaurs with lasers & acceptance testing
 
 !SLIDE
 # Jeff Kreeftmeijer
@@ -92,7 +92,7 @@
 @@@
 
 !SLIDE
-# Step deifinitions
+# Step definitions
 
 !SLIDE
 @@@ ruby
@@ -269,7 +269,7 @@
 !SLIDE
 @@@ ruby
     feature "Todos", %q{
-      In order not to forget things I still need to do
+      In order to remember things I still need to do
       As a user
       I want to have a managable list of todos
     } do
@@ -292,7 +292,7 @@
 <pre>$ bundle exec rspec spec</pre>
 <br/>
 <pre>
-  1) Todos In order not to forget things I still need to do
+  1) Todos In order to remember things I still need to do
   As a user
   I want to have a manageable list of todos Add a new todo
 </pre>
@@ -373,7 +373,7 @@ RSpec.configuration.include NavigationHelpers, :type => :acceptance
 <pre>$ bundle exec rspec spec</pre>
 <br/>
 <pre>
-  1) Todos In order not to forget things I still need to do
+  1) Todos In order to remember things I still need to do
   As a user
   I want to have a manageable list of todos Add a new todo
 </pre>
@@ -391,7 +391,7 @@ RSpec.configuration.include NavigationHelpers, :type => :acceptance
 <pre>$ bundle exec rspec spec</pre>
 <br/>
 <pre>
-  1) Todos In order not to forget things I still need to do
+  1) Todos In order to remember things I still need to do
   As a user
   I want to have a managable list of todos Add a new todo
 </pre>

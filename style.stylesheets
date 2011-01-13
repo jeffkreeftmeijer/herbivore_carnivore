@@ -78,11 +78,11 @@ h3{
 
 .title h1 {
   background-size: 1750px auto;
-  font-family: Impact;
+  font-family: League Gothic;
   text-transform: uppercase;
   text-align:center;
   line-height: 85%;
-  font-size: 300px;
+  font-size: 400px;
   background: url(images/dino_riders.jpg), #222;
   -webkit-background-clip: text, border;
   color: transparent;

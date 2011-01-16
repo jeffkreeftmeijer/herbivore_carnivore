@@ -425,6 +425,38 @@ RSpec.configuration.include NavigationHelpers, :type => :acceptance
 !SLIDE
 # Acceptance testing is not rocket science
 
+!SLIDE
+@@@ ruby
+    # test/acceptance/acceptance_helper.rb (Test::Unit)
+
+    module ActionController
+      class IntegrationTest
+        include Capybara
+
+        alias_method :scenario, :test
+      end
+    end
+@@@
+
+!SLIDE
+@@@ ruby
+    # spec/acceptance/acceptance_helper.rb (bacon)
+
+    module Bacon
+      class Context
+        include Capybara
+        Capybara.app = Application
+
+        alias_method :scenario, :it
+        alias_method :background, :before
+      end
+    end
+
+    module Kernel
+      alias_method :feature, :describe
+    end
+@@@
+
 !SLIDE black
 # Thanks!
 ## Questions?

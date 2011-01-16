@@ -19,32 +19,8 @@
 # &lt;/me&gt;
 
 !SLIDE  black
-# BDD
-## Behavior Driven Development
-
-!SLIDE
-## &ldquo;An agile software development technique that encourages collaboration between developers, QA and non-technical or business participants in a software project.&rdquo;
-
-!SLIDE
-# Client involvement
-
-!NOTES
-* Stakeholder needs
-* Client involvement
-* Finding solutions together instead of just building solutions the client thought of
-* Features as stories in a language everybody can understand
-
-!SLIDE
-# Business value
-## 5.times { ask 'Why?' }
-
-!SLIDE
-# Outside-in development
-
-!NOTES
-* Outside-in software devopment methodology
-* V -> C -> M instead of M -> C -> V
-* !YAGNI
+# Acceptance testing
+## Full stack application testing in a browser
 
 !SLIDE black
 # Cucumber

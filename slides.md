@@ -20,7 +20,13 @@
 
 !SLIDE  black
 # Acceptance testing
+
+!SLIDE
+# What is acceptance testing?
 ## Full stack application testing in a browser
+
+!SLIDE
+# Why should I care?
 
 !SLIDE black
 # Cucumber
@@ -132,18 +138,21 @@
 
 !SLIDE relish
 
+!SLIDE
+# Cucumber is awesome
+
 !SLIDE black
-# YAGNI(S)
-## You ain't gonna need it (sometimes)
+# Cucumber is awesome
+## In theory
 
 !SLIDE
 # You don't need to communicate in English
 
 !SLIDE
-# Examples are not documentation
+# You're going to write documentation yourself
 
 !SLIDE
-# You don't want to write regular expressions
+# You don't want to write step definitions
 
 !SLIDE
 # You're using another tool to do stories
@@ -283,114 +292,7 @@
 <pre style="color:red;">1 example, 1 failure</pre>
 
 !SLIDE
-<div style="opacity: 0.5;">
-@@@ ruby
-scenario "Add a new todo" do
-@@@
-</div>
-@@@ ruby
-      visit todos_page
-@@@
-<div style="opacity: 0.5;">
-@@@ ruby
-  click_link 'Add new todo'
-
-  fill_in 'description', :with => 'Talk at ams.rb'
-  click_button 'Add'
-
-  page.should have_content 'Successfully created a new todo'
-end
-@@@
-</div>
-
-!SLIDE
-@@@ ruby
-    # spec/acceptance/support/paths.rb
-
-    module NavigationHelpers
-      # Put helper methods related to the paths in your application here.
-
-      def homepage
-        "/"
-      end
-    end
-
-    RSpec.configuration.include NavigationHelpers, :type => :acceptance
-@@@
-
-!SLIDE
-<div style="opacity: 0.5;">
-@@@ ruby
-# spec/acceptance/support/paths.rb
-
-module NavigationHelpers
-  # Put helper methods related to the paths in your application here.
-
-  def homepage
-    "/"
-  end
-@@@
-</div>
-<br/>
-@@@ ruby
-      def todos_page
-        "/todos"
-      end
-    end
-@@@
-<br/>
-<div style="opacity: 0.5;">
-@@@ ruby
-RSpec.configuration.include NavigationHelpers, :type => :acceptance
-@@@
-
-
-!SLIDE
-<pre>$ bundle exec rspec spec</pre>
-<br/>
-<pre>
-  1) Todos In order to remember things I still need to do
-  As a user
-  I want to have a manageable list of todos Add a new todo
-</pre>
-<pre style="color: red;">     Failure/Error: click_link 'Add new todo'
-     Capybara::ElementNotFound:
-     no link with title, id or text 'Add new todo' found</pre>
-<pre style="color: gray;">     # ./spec/acceptance/todos_spec.rb:11</pre>
-<br/>
-<pre style="color:red;">  1/1:         100% |==========================================| Time: 00:00:00</pre>
-<br/>
-<pre>Finished in 0.28307 seconds</pre>
-<pre style="color:red;">1 example, 1 failure</pre>
-
-!SLIDE
-<pre>$ bundle exec rspec spec</pre>
-<br/>
-<pre>
-  1) Todos In order to remember things I still need to do
-  As a user
-  I want to have a managable list of todos Add a new todo
-</pre>
-<pre style="color: red;">     Failure/Error: fill_in 'description', :with => 'Talk at ams.rb'
-     cannot fill in, no text field, text area or password field with id, name, or label 'description' found</pre>
-<pre style="color: gray;">     # ./spec/acceptance/todos_spec.rb:12</pre>
-<br/>
-<pre style="color:red;">  1/1:         100% |==========================================| Time: 00:00:00</pre>
-<br/>
-<pre>Finished in 0.29439 seconds</pre>
-<pre style="color:red;">1 example, 1 failure</pre>
-@@@
-
-!SLIDE
-<pre>$ bundle exec rspec spec</pre>
-<br/>
-<pre style="color:limegreen;">  1/1:         100% |==========================================| Time: 00:00:00</pre>
-<br/>
-<pre>Finished in 0.18307 seconds</pre>
-<pre style="color:limegreen;">1 example, 0 failures</pre>
-
-!SLIDE
-# Steak
+# What is Steak?
 
 !SLIDE
 # It's just RSpec
@@ -400,42 +302,28 @@ RSpec.configuration.include NavigationHelpers, :type => :acceptance
 
 !SLIDE
 # Acceptance testing is not rocket science
-
-!SLIDE
-@@@ ruby
-    # test/acceptance/acceptance_helper.rb (Test::Unit)
-
-    module ActionController
-      class IntegrationTest
-        include Capybara
-
-        alias_method :scenario, :test
-      end
-    end
-@@@
-
-!SLIDE
-@@@ ruby
-    # spec/acceptance/acceptance_helper.rb (bacon)
-
-    module Bacon
-      class Context
-        include Capybara
-        Capybara.app = Application
-
-        alias_method :scenario, :it
-        alias_method :background, :before
-      end
-    end
-
-    module Kernel
-      alias_method :feature, :describe
-    end
-@@@
+## All you need is something that behaves like a browser
 
 !SLIDE black
+# Questions!
+
+!SLIDE
+# What's your main reason for testing in English?
+
+!SLIDE
+# Do you use your tests as a communication tool with your client?
+## And does your client like that?
+
+!SLIDE
+# Do you ever read any Cucumber generated English documentation?
+## And did you like doing so?
+
+!SLIDE
 # Thanks!
-## Questions?
+
+!SLIDE black
+# Questions?
+## Now's your turn ;)
 
 !SLIDE dinoriders
 

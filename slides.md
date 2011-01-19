@@ -11,7 +11,7 @@
 !SLIDE
 # Open source
 ## Navvy, Fuubar, Swinger
-### Ruby on Rails, RSpec, Steak
+### Ruby on Rails, RSpec, Steak, Capybara
 
 !SLIDE jeffkreeftmeijer
 
@@ -305,18 +305,10 @@
 ## All you need is something that behaves like a browser
 
 !SLIDE black
-# Questions!
+# Question!
 
 !SLIDE
-# What's your main reason for testing in English?
-
-!SLIDE
-# Do you use your tests as a communication tool with your client?
-## And does your client like that?
-
-!SLIDE
-# Do you ever read any Cucumber generated English documentation?
-## And did you like doing so?
+# So you benefit from writing tests in English?
 
 !SLIDE
 # Thanks!

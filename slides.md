@@ -23,7 +23,7 @@
 
 !SLIDE
 # What is acceptance testing?
-## Full stack application testing in a browser
+## Full-stack application testing in a browser
 
 !SLIDE
 # Why should I care?
@@ -308,7 +308,7 @@
 # Question!
 
 !SLIDE
-# So you benefit from writing tests in English?
+# Do you benefit from writing tests in English?
 
 !SLIDE
 # Thanks!
